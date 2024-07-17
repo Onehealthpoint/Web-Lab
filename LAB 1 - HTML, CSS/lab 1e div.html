@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 95vh;
+        }
+        form{
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+    <form action="">
+        <div class="inline">
+            <label for="name">Name</label><input type="text" name="name" id="name">
+        </div>
+        <div class="inline">
+            <label for="phone">Phone</label><input type="text" name="phone" id="phone">
+        </div>
+        <div class="inline">
+            <label for="email">Email</label><input type="email" name="email" id="email">
+        </div>
+        <div class="block">
+            <label for="radio">Which taxi do you require?</label>
+            <input type="radio" name="radio" id="radio">
+            <input type="radio" name="radio" id="radio">
+            <input type="radio" name="radio" id="radio">
+        </div>
+        <div class="block">
+            <label for="check">Extras</label>
+            <input type="checkbox" id="check">
+            <input type="checkbox" id="check">
+            <input type="checkbox" id="check">
+        </div>
+        <div class="inline">
+            <label for="pickupdate">Pickup Date/Time</label><input type="date" name="pickupdate" id="pickupdate" value="mm / dd / yyyy , --:-- --">
+        </div>
+        <div class="inline">
+            <label for="pickupplace">Pickup Place</label>
+            <select name="pickupplace" id="pickupplace">
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+            </select>
+        </div>
+        <div class="inline">
+            <label for="dropoffplace">Dropoff Place</label><input type="text" name="dropoffplace" id="dropoffplace">
+        </div>
+        <div class="inline">
+            <label for="specialinstruction">Special Instructions</label><input type="text" name="specialinstruction" id="specialinstruction">
+        </div>
+        <div class="inline">
+            <input type="submit" value="Submit Booking">
+        </div>
+        
+        
+        
+       
+        
+       
+    </form>
+    </body>
+</html>
